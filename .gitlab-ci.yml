@@ -3,7 +3,7 @@ stages:
   - test
   - deploy
 
-spectest:
+codetest:
   stage: test
   tags:
     - mkdocs
