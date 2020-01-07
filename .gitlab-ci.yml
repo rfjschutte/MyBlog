@@ -1,0 +1,27 @@
+---
+stages:
+  - test
+  - deploy
+
+spectest:
+  stage: test
+  tags:
+    - mkdocs
+    - pip36
+  script: 
+    - mdlint .
+
+webserver:
+  stage: deploy
+  tags:
+    - mkdocs
+    - pip36
+  script: 
+    - ENABLE_PDF_EXPORT=1 mkdocs build
+    - sudo cp -avr site/* /var/www/richardschutte.nl/
+
+  artifacts:
+    paths:
+      - site
+  only:
+  - master
