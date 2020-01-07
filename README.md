@@ -132,4 +132,3 @@ testserver:
   only:
   - master
 ```
-
