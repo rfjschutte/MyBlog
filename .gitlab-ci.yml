@@ -11,7 +11,7 @@ codetest:
   script: 
     - mdlint .
 
-webserver:
+dploytest:
   stage: deploy
   tags:
     - mkdocs
