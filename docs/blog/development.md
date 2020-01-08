@@ -80,6 +80,12 @@ blockdiag {
   Ansible -> Webserver [folded];
   
   Webserver [shape = cloud];
+  Commit [shape = actor];
+  Git [shape = "diamond", stacked];
+  Gitlab  [shape = "flowchart.database", stacked];
+  Gitlab-CI [shape = flowchart.loopin];
+  Gitlab-CD [shape = flowchart.loopout];
+  Ansible [shape = diamond];
 }
 
 ## Watch out
