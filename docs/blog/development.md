@@ -78,6 +78,8 @@ blockdiag {
   Commit -> Git -> Gitlab -> Gitlab-CI -> Gitlab-CD -> Ansible -> Webserver;
   Gitlab -> Gitlab-CI [folded];
   Ansible -> Webserver [folded];
+  
+  Webserver [shape = cloud];
 }
 
 ## Watch out

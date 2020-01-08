@@ -7,7 +7,8 @@ Modules can be used to control system resources
 such as services, packages, or files - or
 execute system commands.
 
-For interacting with Azure services, Ansible includes
-a suite of Ansible cloud modules that provides the
-tools to easily create and orchestrate your
-infrastructure on Azure.
+Ansible interacts with the Azure resource manager’s
+REST APIs to manage infrastructure components using
+Python SDK provided by Microsoft Azure, which
+requires credentials of an authorized user to
+interact with Azure REST APIs.
