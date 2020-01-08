@@ -22,8 +22,6 @@ theme:
 
 extra:
     social:
-        - type: gitlab
-          link: https://gitlab.richardschutte.nl/
         - type: github
           link: https://github.com/rfjschutte
         - type: home
