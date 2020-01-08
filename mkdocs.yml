@@ -2,7 +2,7 @@ site_name: Richard's Blog
 site_description: Blog Of A Open Source Enthusiast.
 site_author: Richard Schutte
 copyright: Copyright &copy; 2016 - 2020 <a href="https://richardschutte.nl">Richard Schutte</a>
-repo_name: 'MKblog/base'
+repo_name: 'rfjschutte/MyBlog'
 repo_url: https://github.com/rfjschutte/MyBlog
 
 theme:
